@@ -39,7 +39,7 @@
             </div>
             <div class="site-nav-menu">
                 <ul class="primary-menu">
-                    <li><a href="../index.php" class="active">INICIO</a></li>
+                    <li><a href="principal.php.php" class="active">INICIO</a></li>
                     <li><a href="../cuenta.php">CUENTA</a></li>
                     <li><a href="#">INDEFINIDO</a></li>
                     <li><a href="#">INDEFINIDO</a></li>
