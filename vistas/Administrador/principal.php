@@ -39,8 +39,8 @@
             </div>
             <div class="site-nav-menu">
                 <ul class="primary-menu">
-                    <li><a href="../../index.html" class="active">INICIO</a></li>
-                    <li><a href="../cuenta.html">CUENTA</a></li>
+                    <li><a href="principal.php" class="active">INICIO</a></li>
+                    <li><a href="../cuenta.php">CUENTA</a></li>
                     <li><a href="#">INDEFINIDO</a></li>
                     <li><a href="#">INDEFINIDO</a></li>
                     <li><a href="#">INDEFINIDO</a></li>
@@ -90,34 +90,31 @@
     <!-- PAGINAS SECUNDARIAS -->
     <div class="container">
         <div class="row" >
-          <div class="col-lg-4 col-md-2 col-sm-2" style="justify-content: center">
+          <div class="col-lg-6 col-md-2 col-sm-2" style="justify-content: center">
             <div style="text-align: center;"><a href="#" ><img src="../../logos/cercanos.png" alt="" width="200px"></a></div>
             <br>
             <div style="text-align: center;"><h4>Instituciones Cercanas</h4></div>
           </div>
-          <div class="col-lg-4 col-md-2 col-sm-2" style="justify-content: center">
+          <div class="col-lg-6 col-md-2 col-sm-2" style="justify-content: center">
             <div style="text-align: center;"><a href="#"><img src="../../logos/jurisdiccion.png" alt="" width="200px"></a></div>
             <br>
             <div style="text-align: center;"><h4>Instituciones de la Jurisdiccion</h4></div>
           </div>
-          <div class="col-lg-4 col-md-2 col-sm-2" style=" justify-content: center">
-            <div style="text-align: center;"><a href="todas.html"><img src="../../logos/pais.png" alt="" width="200px"></a></div>
+        </div>
+        <div class="row" >
+          <div class="col-lg-6 col-md-2 col-sm-2" style="justify-content: center">
+            <div style="text-align: center;"><a href="#" ><img src="../../logos/pais.png" alt="" width="200px"></a></div>
             <br>
             <div style="text-align: center;"><h4>Todas las instituciones</h4></div>
           </div>
-        </div>
-        </div>
-        <div class="row justify-content-md-center">
-          <div class="col-lg-4 col-md-2 col-sm-2" style="justify-content: center">
-            <div style="text-align: center;"><a href="#" ><img src="../../logos/cercanos.png" alt="" width="200px"></a></div>
+          <div class="col-lg-6 col-md-2 col-sm-2" style="justify-content: center">
+            <div style="text-align: center;"><a href="#"><img src="../../logos/usuario.png" alt="" width="200px"></a></div>
             <br>
             <div style="text-align: center;"><h4>Usuarios</h4></div>
           </div>
-          <div class="col-lg-4 col-md-2 col-sm-2" style="justify-content: center">
-            <div style="text-align: center;"><a href="#"><img src="../../logos/jurisdiccion.png" alt="" width="200px"></a></div>
-            <br>
-            <div style="text-align: center;"><h4>,,,,,,,,,,,,</h4></div>
-          </div>
+        </div>
+        </div>
+        
     </div>  
 
     <!-- PIE DE PAGINA -->
