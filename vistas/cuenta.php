@@ -8,6 +8,11 @@
         header("Location: login.php");
         die(); 
     }
+    if ($_SESSION['rol'] == 1){
+      $usuario = "Administrador";
+    }else{
+      $usuario = "Lector";
+    }
 ?>
 
 <!DOCTYPE html>
@@ -32,7 +37,7 @@
             </div>
             <div class="site-nav-menu">
                 <ul class="primary-menu">
-                    <li><a href="../index.php" class="active">INICIO</a></li>
+                    <li><a href="<?php echo $usuario ?> /principal.php" class="active">INICIO</a></li>
                     <li><a href="cuenta.php">CUENTA</a></li>
                     <li><a href="#">INDEFINIDO</a></li>
                     <li><a href="#">INDEFINIDO</a></li>
@@ -57,15 +62,7 @@
               <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">INFORMACION DE USUARIO</h5>
-                  <p class="card-text"><b>Rol: </b>
-                    <?php 
-                      if ($_SESSION['rol'] == 1){
-                        echo "Administrador";
-                      }else{
-                        echo "Lector";
-                      }
-                    ?>
-                  </p>
+                  <p class="card-text"><b>Rol: </b> <?php echo $usuario ?> </p>
                   <p class="card-text"><b>Nombre de usuario: </b><?php echo $_SESSION['nombre']; ?></p>
                   <p class="card-text"><b>Contraseña: </b><?php echo $_SESSION['password']; ?></p>
                   <button type="button" class="btn btn-outline-primary">MODIFICAR</button>
