@@ -54,7 +54,7 @@ src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js">
             </div>
             <div class="site-nav-menu">
                 <ul class="primary-menu">
-                    <li><a href="../index.php" class="active">INICIO</a></li>
+                    <li><a href="principal.php" class="active">INICIO</a></li>
                     <li><a href="../cuenta.php">CUENTA</a></li>
                     <li><a href="#">INDEFINIDO</a></li>
                     <li><a href="#">INDEFINIDO</a></li>
