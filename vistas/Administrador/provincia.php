@@ -43,8 +43,8 @@ src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js">
 </head>
 <body>
 
-       <!-- BARRA DE NAVEGACION -->
-       <header class="header-area">
+    <!-- BARRA DE NAVEGACION -->
+    <header class="header-area">
         <div class="header-container">
             <div class="site-logo">
                 <a href="#">INET</a>
@@ -55,7 +55,7 @@ src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js">
             <div class="site-nav-menu">
                 <ul class="primary-menu">
                     <li><a href="principal.php" class="active">INICIO</a></li>
-                    <li><a href="#">INDEFINIDO</a></li>
+                    <li><a href="../cuenta.php">CUENTA</a></li>
                     <li><a href="#">INDEFINIDO</a></li>
                     <li><a href="#">INDEFINIDO</a></li>
                     <li><a href="#">INDEFINIDO</a></li>
