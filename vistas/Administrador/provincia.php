@@ -56,9 +56,9 @@ src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js">
                 <ul class="primary-menu">
                     <li><a href="principal.php" class="active">INICIO</a></li>
                     <li><a href="../cuenta.php">CUENTA</a></li>
-                    <li><a href="#">INDEFINIDO</a></li>
-                    <li><a href="#">INDEFINIDO</a></li>
-                    <li><a href="#">INDEFINIDO</a></li>
+                    <li><a href="provincia.php">MI PROVINCIA</a></li>
+                    <li><a href="todas.html">TODAS LAS INSTITUCIONES</a></li>
+                    <li><a href="usuarios.php">USUARIOS</a></li>
                 </ul>
             </div>
         </div>
