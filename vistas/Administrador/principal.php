@@ -41,9 +41,9 @@
                 <ul class="primary-menu">
                     <li><a href="principal.php" class="active">INICIO</a></li>
                     <li><a href="../cuenta.php">CUENTA</a></li>
-                    <li><a href="#">INDEFINIDO</a></li>
-                    <li><a href="#">INDEFINIDO</a></li>
-                    <li><a href="#">INDEFINIDO</a></li>
+                    <li><a href="provincia.php">MI PROVINCIA</a></li>
+                    <li><a href="todas.html">TODAS LAS INSTITUCIONES</a></li>
+                    <li><a href="usuarios.php">USUARIOS</a></li>
                 </ul>
             </div>
         </div>
@@ -103,12 +103,12 @@
         </div>
         <div class="row" >
           <div class="col-lg-6 col-md-2 col-sm-2" style="justify-content: center">
-            <div style="text-align: center;"><a href="#" ><img src="../../logos/pais.png" alt="" width="200px"></a></div>
+            <div style="text-align: center;"><a href="todas.html" ><img src="../../logos/pais.png" alt="" width="200px"></a></div>
             <br>
             <div style="text-align: center;"><h4>Todas las instituciones</h4></div>
           </div>
           <div class="col-lg-6 col-md-2 col-sm-2" style="justify-content: center">
-            <div style="text-align: center;"><a href="#"><img src="../../logos/usuario.png" alt="" width="200px"></a></div>
+            <div style="text-align: center;"><a href="usuarios.php"><img src="../../logos/usuario.png" alt="" width="200px"></a></div>
             <br>
             <div style="text-align: center;"><h4>Usuarios</h4></div>
           </div>
