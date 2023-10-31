@@ -42,7 +42,7 @@ src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js">
 
 </head>
 <body>
-    <!-- BARRA DE NAVEGACION -->
+   <!-- BARRA DE NAVEGACION -->
     <header class="header-area">
         <div class="header-container">
             <div class="site-logo">
@@ -55,9 +55,8 @@ src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js">
                 <ul class="primary-menu">
                     <li><a href="principal.php" class="active">INICIO</a></li>
                     <li><a href="../cuenta.php">CUENTA</a></li>
-                    <li><a href="#">INDEFINIDO</a></li>
-                    <li><a href="#">INDEFINIDO</a></li>
-                    <li><a href="#">INDEFINIDO</a></li>
+                    <li><a href="provincia.php">MI PROVINCIA</a></li>
+                    <li><a href="todas.html">TODAS LAS INSTITUCIONES</a></li>
                 </ul>
             </div>
         </div>
