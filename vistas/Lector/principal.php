@@ -39,11 +39,10 @@
             </div>
             <div class="site-nav-menu">
                 <ul class="primary-menu">
-                    <li><a href="principal.php.php" class="active">INICIO</a></li>
+                    <li><a href="principal.php" class="active">INICIO</a></li>
                     <li><a href="../cuenta.php">CUENTA</a></li>
-                    <li><a href="#">INDEFINIDO</a></li>
-                    <li><a href="#">INDEFINIDO</a></li>
-                    <li><a href="#">INDEFINIDO</a></li>
+                    <li><a href="provincia.php">MI PROVINCIA</a></li>
+                    <li><a href="todas.html">TODAS LAS INSTITUCIONES</a></li>
                 </ul>
             </div>
         </div>
